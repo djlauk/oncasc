@@ -1,0 +1,83 @@
+# ----------------------------------------------------------------------
+# File format:
+#   - Empty lines are ignored
+#   - Lines starting with ``#`` are ignored
+#   - One line per time slot, consisting of:
+#       - The label of the time slot (e.g. the week number)
+#       - (optional) A colon ``:``, separating the ID from a reason,
+#         and the text with an explanation, why that time slot needs
+#         not be scheduled
+#
+# **Note:**
+# The labeling of the time slots must be the same like in the
+# "unavailable list" for a team member in the team file!
+#
+# **Note:**
+# The label of the time slots will be used for sorting the time slots
+# in an *alpha-numeric* way. Leading zeroes are your friends ;-)
+#----------------------------------------------------------------------
+
+# Example data: Each week, identified by number
+
+01: # Week 1 needs no scheduling: Christmas / new year break
+# ATTENTION:
+#
+# Please note, that oncasc does not support inline comments.
+#
+# The ``#`` after the colon is purely for output formatting;
+# it bears no input logic for oncasc itself
+#
+# You can, of course, use anything you like to make the output
+# distinguishable from a team member 
+
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20:# Big maintenance break, 3 weeks of restructuring, hence no on call service
+21:# Big maintenance break, 3 weeks of restructuring, hence no on call service
+22:# Big maintenance break, 3 weeks of restructuring, hence no on call service
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52: # Week 52 needs no scheduling: Christmas / new year break

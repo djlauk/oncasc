@@ -1,0 +1,22 @@
+# ----------------------------------------------------------------------
+# File format:
+#   - Empty lines are ignored
+#   - Lines starting with ``#`` are ignored
+#   - One line per team member, consisting of:
+#       - The display text for the team member (name + contact info?)
+#       - A colon ``:`` (optional), separating the display text from the
+#         unavailable time slots
+#       - A comma ``,`` separated list of time slots, during which
+#         the team member is not available
+#
+# **Note:**
+# The labeling of the time slots must be the same like in the schedule
+# template file (e.g. week numbers)!
+#----------------------------------------------------------------------
+
+# Example data
+
+Alice:02,03,15
+Bob:15,16
+Claire:
+Dave: 05, 12, 20, 26, 27
